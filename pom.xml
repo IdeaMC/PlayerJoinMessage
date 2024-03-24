@@ -6,7 +6,7 @@
 
     <groupId>fun.xiantiao</groupId>
     <artifactId>PlayerJoinMessage</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>PlayerJoinMessage</name>

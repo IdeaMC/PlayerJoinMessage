@@ -1,5 +1,8 @@
 # 配置文件版本
-ver: 2
+ver: 3
+
+#启用统计信息
+bStats: true
 
 # 是否取消发送默认的加入消息
 notSendJoinMessage: true

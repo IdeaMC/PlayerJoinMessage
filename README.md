@@ -2,6 +2,8 @@
 
 by: xiantiao
 
+> 支持Spigot Paper Folia CatServer等有Bukkit API的服务端
+
 > 1代支持 {player} 变量  
 > 设置关闭加入消息  
 > 首次与非首次加入服务器的消息区别
@@ -17,7 +19,10 @@ by: xiantiao
 >配置文件
 ```yaml
 # 配置文件版本
-ver: 2
+ver: 3
+
+#启用统计信息
+bStats: true
 
 # 是否取消发送默认的加入消息
 notSendJoinMessage: true

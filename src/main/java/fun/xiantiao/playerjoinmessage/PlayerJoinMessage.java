@@ -31,6 +31,10 @@ public class PlayerJoinMessage extends JavaPlugin implements Listener {
         loadConfig();
 
         Events.sendFirstJoinMessage = new ArrayList<>();
+
+        if (getConfig().getBoolean("bStats")) {
+            new Metrics(this, 21409);
+        }
     }
 
     static void sendAllPlayer(String message,Player player) {
@@ -59,6 +63,12 @@ public class PlayerJoinMessage extends JavaPlugin implements Listener {
             getConfig().set("message",null);
 
             getConfig().set("ver",2);
+            saveConfig();
+        }
+
+        if (getConfig().getInt("ver") == 2) {
+            getConfig().set("bStats",true);
+            getConfig().set("ver",3);
             saveConfig();
         }
     }

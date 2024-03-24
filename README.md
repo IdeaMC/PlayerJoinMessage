@@ -1,6 +1,6 @@
 # PlayerJoinMessage
 
-by: xiantiao
+玩家加入时，全服提醒
 
 > 支持Spigot Paper Folia CatServer等有Bukkit API的服务端
 

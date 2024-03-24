@@ -1,0 +1,8 @@
+name: PlayerJoinMessage
+version: '${project.version}'
+main: fun.xiantiao.playerjoinmessage.PlayerJoinMessage
+api-version: '1.20'
+authors: [xiantiao]
+folia-supported: true
+commands:
+  playerjoinmessage:
